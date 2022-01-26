@@ -36,6 +36,6 @@ form.addEventListener('submit', (e) => {
   } else if (elInput.value == 3) {
     elText.textContent = 'neutral';
   } else {
-    alert('h')
+    alert('please enter number between 1 and 3')
   }
 })
