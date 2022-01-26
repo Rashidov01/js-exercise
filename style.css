@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #5FD0FF;
+  color: #000;
+}
+
+.form{
+  padding: 30px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.form__header{
+  margin-bottom: 25px;
+}
+
+.form__main{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.form__btn{
+  color: #b1aeae;
+  text-decoration: none;
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.form__btn.form__btn--active{
+  color: #000;
+}
+
+.form__link:last-child{
+  margin-right: 0;
+}
+
+
